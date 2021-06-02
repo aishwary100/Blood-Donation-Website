@@ -1,0 +1,42 @@
+header ul li{	
+	list-style: none;
+	float: right;
+	display: inline-block;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+ a{
+	text-decoration:none;
+	color: black;
+}
+ul li a:hover{
+	text-decoration: underline;
+	color:red;
+}
+header {
+	
+	height: 80px;
+}
+header img{
+	width: 100px;
+	height: 100px;
+	float:left;
+	position: relative;
+	top:-13px;
+	left: -35px;
+}
+footer {
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+    box-shadow: 0 0 7px rgba(0,0,0,.3);
+    font-size: 11px;
+    padding: 20px;
+    color: #404041;
+    background: #fff;
+ 
+     
+  	
+    word-spacing: 4px;
+}

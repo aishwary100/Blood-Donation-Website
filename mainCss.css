@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	text-align: center;
+	}
+
+header {
+	
+	height: 80px;
+}
+header img{
+	width: 100px;
+	height: 100px;
+	float:left;
+	position: relative;
+	top:-13px;
+	left: -35px;
+}
+
+
+header ul li{
+	list-style: none;
+	float: right;
+	display: inline-block;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+ a{
+	text-decoration:none;
+	color: black;
+}
+ul li a:hover{
+	text-decoration: underline;
+	color:red;
+}
+
+#backgroundImage{
+	height: 100%;
+	width: 100%;
+	background-image: url("background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background
+}
+
+div#middle{
+	
+	margin: 0 auto;
+	height: 600px;
+}
+
+div input{
+	//font-family: 'Nanum Pen Script', cursive;
+	background: red;
+	color: white;
+	border-radius:8px;
+	font-size: 16px;
+	padding:15px;
+	width: 180px;
+	font-weight: bold;
+}
+div#middleAbove{
+	clear: both;
+}
+#middleAbove h1{
+	line-height: 50px;
+	color: white;
+}
+div img{
+	height: 60px;
+	width: 100px;
+}
+.led{
+	margin-top: 100px;
+	margin-right: 20px;
+	margin-left: 390px;
+	float: left;
+	width: 200px;
+	color: white;
+}
+
+.led h3{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.led p{
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+.led a{
+	color: white;
+}
+
+footer{
+	clear: both;
+}
+
+footer ul li{
+	list-style: none;
+	float: left;
+	padding: 20px;
+	font-size: 22px;
+}
+
+

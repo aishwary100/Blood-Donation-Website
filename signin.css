@@ -1,0 +1,110 @@
+#site-nav{
+	position:absolute;
+	top:20px;
+	left:1000px;
+	color:red;
+}
+#site-nav li{
+	list-style: none;
+	font-weight: bold;
+	font-size: 30px;
+	display: inline;
+	color:red;
+}
+.group ul li a{
+	text-decoration: none;
+}
+.group{
+	position:absolute;
+	top:20px;
+	left:1000px;
+	color:red;
+	font-weight: bold;
+}
+.introBlock {
+    background: #e42313;
+    padding: 30px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+   }
+.b2cInsert {
+    max-Width: 960px;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.b2cInsert, .introBlock p {
+    font-family: Montserrat,sans-serif;
+    }
+ #next{
+ 	color: red;j
+ }
+ .entry-item{
+ 	padding-bottom: 10px;
+ }
+ input{
+ 	height: 50px;
+ 	width: 350px;
+ 	border-radius: 5px;
+ }
+
+ #button{
+ 	background: red;
+ 	color: white;
+ 	font-weight: bold;
+ }
+ footer {
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+    box-shadow: 0 0 7px rgba(0,0,0,.3);
+    font-size: 11px;
+    padding: 20px;
+    color: #404041;
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    word-spacing: 4px;
+}
+ a{
+ 	text-decoration: none;
+ }
+ .no-account a{
+ 	border: 2px solid grey;
+ 	border-radius: 5px;
+ 	color: grey;
+ 	display: inline-block;
+ 	padding: 10px;
+ 	width: 150px;
+ }
+ header ul li{  
+    list-style: none;
+    float: right;
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ a{
+    text-decoration:none;
+    color: black;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color:red;
+}
+header {
+    
+    height: 80px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    float:left;
+    position: relative;
+    top:-13px;
+    left: -35px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="ashwarys website">
+	<link rel="stylesheet" type="text/css" href="newregister.css">
+	<title>newregister</title>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Solway&display=swap" rel="stylesheet">
+</head>	
+<body>
+	<header>
+		<ul>
+			<img src="logo.jpg">
+			<li><a href="signin.html">Log in</a></li>
+			<li><a href="http://localhost/dsw_project/aboutus.php">About Us</a></li>
+			<li><a href="http://localhost/dsw_project/contactus.php">Contact us</a></li>
+			<li><a href="main.html">Home</a></li>
+		</ul>
+	</header>
+	<div class="rn_body"> 
+		<div class="wrapper-body_register">
+		<div class="container_text-center">
+			<h1 id="welcome-sm">Welcome</h1>
+			<p class="welcome-text">To our new secure online booking process. You can manage all your appointment details<br>in one convenient place.</p>
+       
+			<div class="form-inline circle-place">
+				<div id="circle"><a href="donate.html"><p class="circle-text font-1-5">Manage appointments</p></a></div>
+				<div id="circle"><a href=""><p class="circle-text font-1-5">View donation history</p></a></div>
+			</div>
+		</div>
+		<form action="http://localhost/dsw_project/signup.php" method="POST">
+			<h3>Register</h3>
+			<div id="yesno">
+			Do you have a donar no.&nbsp&nbsp
+			Yes<input type="radio" name="yes" class="radio">
+			No<input type="radio" name="no" class="radio"checked>
+		</div>
+			<br>
+			<input type="text" name="name" placeholder="name" required><br>
+			<input type="Date" name="dob" placeholder="date of birth" required=""><br>
+			<input type="text" name="gen" placeholder="gender" required>
+
+			<br>
+
+			<input type="email" name="email" placeholder="email address"><br>
+			<input type="telephone" name="phone" placeholder="Mobile no." maxlength="10" required><br>
+			<input type="text" name="address" placeholder="address"><br>
+			<input type="submit" name="Submit" value="Register" id="submitButton">
+			
+		</form>
+	</div>
+	</div>	
+	<footer>
+        <div class="wrapper">
+            <p style="text-align:center;">2019 AUSTRALIAN RED CROSS LIFEBLOOD
+                <a href="#" target="_blank">Terms &amp; Conditions</a>
+                <a href="#" target="_blank">Privacy Policy</a> 
+                <a href="#" target="_blank">Security</a>
+                <a href="#" target="_blank">Collection Statement</a> 
+                <a href="#" target="_blank">Cookies</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>                                                                                                                                            

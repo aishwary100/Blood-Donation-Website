@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="reshedule.css">
+	<title>reshedule</title>
+</head>
+<body>
+	<header>
+		
+		<ul>
+			<img src="logo.jpg">
+			<li><a href="main.html">Home</a></li>
+			<li><a href="contactus.html">Contact us</a></li>
+			<li><a href="aboutus.html">About us</a></li>
+		</ul>
+	</header>
+	<div class="b2cInsert">
+    	<form action="http://localhost/dsw_project/reshedule.php" method="POST">
+        <div id="api" data-name="Phonefactor">
+
+
+    <div class="localAccount" aria-label="Log in to your account." role="form">
+        <div class="intro">
+          <h2>
+            Please insert your new date and time.
+          </h2>
+        </div>
+        <div class="error pageLevel" aria-hidden="true" style="display: none;">
+          <p role="alert"></p>
+        </div>
+        <div class="entry">
+          <div class="entry-item">
+            <label for="signInName">
+            </label>
+            <div class="error itemLevel" aria-hidden="true" style="display: none;">
+              <p role="alert"></p>
+            </div>
+            <input type="date" id="newdate" name="newdate" placeholder="new date" value="" tabindex="1">
+          </div>
+          <div class="entry-item">
+            <div class="dob-label">
+              <label for="dob"></label>
+            </div>
+            <div class="error itemLevel" aria-hidden="true" style="display: none;">
+              <p role="alert"></p>
+            </div>
+            <input type="time" id="newtime" name="newtime" placeholder="New time" tabindex="1">
+          </div>
+          <div class="working"></div>
+          <div class="buttons">
+            <input type="submit" name="button" value="Reshedule" id="button">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+        
+    </form>
+    </div>
+	<footer>
+        <div class="wrapper">
+            <p style="text-align:center;">2019 AUSTRALIAN RED CROSS LIFEBLOOD
+                <a href="#" target="_blank">Terms &amp; Conditions</a>
+                <a href="#" target="_blank">Privacy Policy</a> 
+                <a href="#" target="_blank">Security</a>
+                <a href="#" target="_blank">Collection Statement</a> 
+                <a href="#" target="_blank">Cookies</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
